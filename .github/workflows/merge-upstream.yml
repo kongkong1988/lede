@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>OpenWrt-CI/openwrt-ci.yml at master · kongkong1988/OpenWrt-CI</title>
+  <title>OpenWrt-CI/merge-upstream.yml at master · kongkong1988/OpenWrt-CI</title>
     <meta name="description" content="OpenWrt CI 在线集成自动编译环境. Contribute to kongkong1988/OpenWrt-CI development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/54630320?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="kongkong1988/OpenWrt-CI" /><meta property="og:url" content="https://github.com/kongkong1988/OpenWrt-CI" /><meta property="og:description" content="OpenWrt CI 在线集成自动编译环境. Contribute to kongkong1988/OpenWrt-CI development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDU1ODQ0OTkwOjczMzhkMzIzNzQyNjg0NWNmOTg2OTAyYzZmYjcxYmMwMWFmYzhlODY1M2E0ZWVlZmNkY2NkNmQ3NWIwYmZkM2I=--c5918f7a2364d2678806f7c8917394da22cdfb84">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDU1ODQ0OTkwOjhiYzI2NWI4YjNjOTJiODkxYWYzZWJiN2UzNTUxOWE2YzEzNDNiZDNlNDJmZDVlOTE5YTI3YjZhNjRiNmYxMWM=--e6465778a7b743f1eb7e9b2be7ae83b0c3f9d326">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-    <meta name="request-id" content="8F2A:7BF2:8C1B8B:CADCBE:5E0B511B" data-pjax-transient>
+    <meta name="request-id" content="8F2A:7BF2:8C1B3D:CADC41:5E0B510D" data-pjax-transient>
 
 
 
@@ -54,7 +54,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="8F2A:7BF2:8C1B8B:CADCBE:5E0B511B" /><meta name="octolytics-dimension-region_edge" content="ap-northeast-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="2353064913478674549" /><meta name="octolytics-actor-id" content="54630320" /><meta name="octolytics-actor-login" content="kongkong1988" /><meta name="octolytics-actor-hash" content="ccd4fb02fa8cc4948e16f0e1c01c37870bc91093c8eac76d3d757c3669c5786c" />
+    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="8F2A:7BF2:8C1B3D:CADC41:5E0B510D" /><meta name="octolytics-dimension-region_edge" content="ap-northeast-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="2353064913478674549" /><meta name="octolytics-actor-id" content="54630320" /><meta name="octolytics-actor-login" content="kongkong1988" /><meta name="octolytics-actor-hash" content="ccd4fb02fa8cc4948e16f0e1c01c37870bc91093c8eac76d3d757c3669c5786c" />
 
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
@@ -75,7 +75,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="ZDZjMGZjMzEwMzI4MjU1OTgzOWEzM2UwM2MwZmNiMDA1ZTVkMzRkMWFiNzU0NzY2MzMxNGM2NWRkYWI5MWExMnx7InJlbW90ZV9hZGRyZXNzIjoiMTE4LjI3LjM3LjIyMyIsInJlcXVlc3RfaWQiOiI4RjJBOjdCRjI6OEMxQjhCOkNBRENCRTo1RTBCNTExQiIsInRpbWVzdGFtcCI6MTU3Nzc5OTk2NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+      <meta name="js-proxy-site-detection-payload" content="YjgzMWFmYjk2YThhNGMwZWMzNGUyNDJlZDk0MjEyYTMzMGQ5NjNjNTU2NGY2NjFmYjYyZmRmZmQzNWM4ODUyN3x7InJlbW90ZV9hZGRyZXNzIjoiMTE4LjI3LjM3LjIyMyIsInJlcXVlc3RfaWQiOiI4RjJBOjdCRjI6OEMxQjNEOkNBREM0MTo1RTBCNTEwRCIsInRpbWVzdGFtcCI6MTU3Nzc5OTk1OCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
@@ -91,7 +91,7 @@
   <meta name="octolytics-dimension-user_id" content="54630320" /><meta name="octolytics-dimension-user_login" content="kongkong1988" /><meta name="octolytics-dimension-repository_id" content="231093963" /><meta name="octolytics-dimension-repository_nwo" content="kongkong1988/OpenWrt-CI" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="224590315" /><meta name="octolytics-dimension-repository_parent_nwo" content="KFERMercer/OpenWrt-CI" /><meta name="octolytics-dimension-repository_network_root_id" content="224590315" /><meta name="octolytics-dimension-repository_network_root_nwo" content="KFERMercer/OpenWrt-CI" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="true" />
 
 
-    <link rel="canonical" href="https://github.com/kongkong1988/OpenWrt-CI/blob/master/openwrt-ci.yml" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/kongkong1988/OpenWrt-CI/blob/master/merge-upstream.yml" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -165,7 +165,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=jTPCziBWH5kahFyr0KlOGZlpgFk6kvPXeN1W9rLC6qYP5hp9p9ODE8RB5bZUtSFABDFb1N4Y3Na3m3GPLgeqBA=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=nIZQe4vEvR55pooGukJu79K0RFPr7ROXjjpDgRU3GMweU4jIDEEhlKdjMxs+XgG2T+yf3g9nPJZBfGT4ifJYbg=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -318,7 +318,7 @@
       <img class="avatar" height="20" width="20" alt="@kongkong1988" src="https://avatars1.githubusercontent.com/u/54630320?s=60&amp;v=4" />
       kongkong1988
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="n2u3dn1Ib6KSgCCvnDShAZcsVfAOq3qevl7d7LtWWHWULE5/ZohVbwGRkAuudc1IKCigGEOfPxaU2QAF8CqdcQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="f3Zi+Mq6E6LkypepL2IyiKNPF8ZP6zGE/+ht+/OUk+50MZvx0Xopb3fbJw0dI17BHEviLgLfdAzVb7ASuOhW6g==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -407,7 +407,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:54630320,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:54630320,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B8B:CADCBE:5E0B511B&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/openwrt-ci.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;}}" data-hydro-click-hmac="1012426f0c3d6ef3a7af0fce35c900ce1ab5156f214fe5c20d3d15befd0933ce">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:54630320,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:54630320,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B3D:CADC41:5E0B510D&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/merge-upstream.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;}}" data-hydro-click-hmac="611d1be57112734806f2b42b15ef6c3679e8821342c35275bfe5d584e8b28f17">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -434,7 +434,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="TsYZLlc9DBsC+6AfEbvAka9y1echRtBd4EH8EMv9SdHY/GmDD6MWe7HUZhTQ+BxYM+rmwi9M+mp/8wKSdq900A==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="ie3XjYIv6rX6EbrkuXySoUMRXEQY+uJbirgJL4Vfypcf16cg2rHw1Uk+fO94P05o34lvYRbwyGwVCvetOA33lg==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -554,17 +554,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-12-31T22:16:07+08:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-12-31T22:15:58+08:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-12-31T22:46:07+08:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-12-31T22:45:58+08:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-01-01T01:46:07+08:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-01-01T01:45:58+08:00">
             in 4 hours
           </button>
         </li>
@@ -622,10 +622,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/kongkong1988/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B8B:CADCBE:5E0B511B&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/openwrt-ci.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}"
-    data-feature-preview-close-hmac="96b632cb7c29af4802f570167dfba2b190e3bb718c2f0dcf8588b3b82f327e6f"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B8B:CADCBE:5E0B511B&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/openwrt-ci.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}"
-    data-hydro-click-hmac="31ef233141a69dd1bb08e3ca92e6d6c157cd57ee3c282144808fda060bc7d127"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B3D:CADC41:5E0B510D&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/merge-upstream.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}"
+    data-feature-preview-close-hmac="785f499306ab759968c272354c6fe6500df0b7da29a6190b510de550a0fd31d5"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B3D:CADC41:5E0B510D&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/merge-upstream.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}"
+    data-hydro-click-hmac="cda47c70175eef3fe41fc5b4c96f2af1a3fff6a7e6d065b2f7fa7cc753b571b9"
   >
     Feature preview
   </button>
@@ -634,14 +634,14 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YadGVA7t0NjK1ZaQU3SNt1ioe+r/iGjdlwl+skYsIshq4L9dFS3qFVnEJjRhNeH+56yOArK8LVW9jqNbDVDnzA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="D9ESl1PPQi8UWAyE7wuxarYoB5UfJU7To7iE4caTDhYEluueSA944odJvCDdSt0jCSzyfVIRC1uJP1kIje/LEg==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_0afe" hidden="hidden" class="form-control" />
-<input type="hidden" name="timestamp" value="1577799967782" class="form-control" />
-<input type="hidden" name="timestamp_secret" value="a2775013989ff99bca1fd72614071d8563b99a805ca37cb48edced7f40743a4a" class="form-control" />
+      <input type="text" name="required_field_d16c" hidden="hidden" class="form-control" />
+<input type="hidden" name="timestamp" value="1577799958909" class="form-control" />
+<input type="hidden" name="timestamp_secret" value="5e4e2abda55d252b31659de96434645e27b95bd9279f8ff1cf34b96948b8a306" class="form-control" />
 
 </form>  </details-menu>
 </details>
@@ -678,10 +678,10 @@
       <p class="shelf-lead">
           Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
       </p>
-      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B8B:CADCBE:5E0B511B&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/openwrt-ci.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="79b049f339d21f6cd1c35c566d89accade321fc834039b5143a310d403fa7a0d" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
+      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B3D:CADC41:5E0B510D&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/merge-upstream.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="1405072b3209911d7b8e0ff3f98164a9c74647671e08f7c4469d4ff8abea935f" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
     </div>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="AaFNV7JAjBQuu8X5f2QSXqYst31HegRXZNdwnPm0YKhEXHtiZQ/Ejz6IWRJt+gfIWvGXuSkPeiDVRU4ozoEs2g==" />
-      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B8B:CADCBE:5E0B511B&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/openwrt-ci.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="c176da996c499aed309795a75bd59881eb74ae23defc1fa8c0c76b2f6b00697d">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="HBL+dWnWk2WcfMHegeZumObWJ/7qvBXOZp4OR0JZ2FxZ78hAvpnb/oxPXTWTeHsOGgsHOoTJa7nXDDDzdWyULg==" />
+      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B3D:CADC41:5E0B510D&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/merge-upstream.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="c801d6cdb5b9a92c816fde44fa6c132c3cd7005054458b9e495a1aa2badde8a7">
         <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
 </button></form>  </div>
 </div>
@@ -705,10 +705,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9dPdqaolC3scMVPiI8mNUYEtHzbM5QCFYr4YXZrP7Q770VMHkWzZck3pg6ru1TEzaW48U3Mg73O6RL3L3Xg1Wg==" />      <input type="hidden" name="repository_id" value="231093963">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wUfhe9Wk/eUSoyhN8hvNlDIo+Nhiokp94Ilx2VirarXPRW/V7u0v7EN7+AU/B3H22mvbvd1npYs4c9RPHxyy4Q==" />      <input type="hidden" name="repository_id" value="231093963">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B8B:CADCBE:5E0B511B&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/openwrt-ci.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="eea1ec0c90fe9476687ce2a049d6f9fab7df2145d7fac0edd4aa401cebadb6ee" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B3D:CADC41:5E0B510D&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/merge-upstream.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="207134b3dc0cb764b2c5ee115fb01bb4fc7296829a088ce76f1295bd912b690b" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -779,9 +779,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/kongkong1988/OpenWrt-CI/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3tLIhKeFkMQmhVoSNofCoMoxYLkl9G0uysqMe2gqeHWjRrShf7NThLwxblv9LuqvQLMNMxKDpRh4oG3n5IIQHg==" />
+    <form class="starred js-social-form" action="/kongkong1988/OpenWrt-CI/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="D1EOCAmLwKpEFvaCR7hp1ZEsDiXiDeal8NavlKMYiNdyxXIt0b0D6t6iwsuMEUHaG65jr9V6LpNCvE4IL7DgvA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar kongkong1988/OpenWrt-CI" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B8B:CADCBE:5E0B511B&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/openwrt-ci.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="6c12cddae1b7bbea91a652d4f28b759e1d89953620bf0a289df221863c37a670" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar kongkong1988/OpenWrt-CI" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B3D:CADC41:5E0B510D&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/merge-upstream.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="8ba26db0872af8fb1ebaeb69f259dae8a268ee109024c9a4909cb0ab4d9e23b4" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/kongkong1988/OpenWrt-CI/stargazers"
@@ -789,9 +789,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/kongkong1988/OpenWrt-CI/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="e+2dUkVJP7pWfiFiw8Yybp2OUihAoPZm0JuMNKCKU/3OCmxxRkLPggvJBG4sJvYl2nsjX5dupsiFZNuGbw/w7A==" />
+    <form class="unstarred js-social-form" action="/kongkong1988/OpenWrt-CI/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7avcOXSQzUBBbEYa4mrbZ0QVoyzbn3PUsxmzuKig12ZYTC0ad5s9eBzbYxYNih8sA+DSWwxRI3rm5uQKZyV0dw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star kongkong1988/OpenWrt-CI" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B8B:CADCBE:5E0B511B&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/openwrt-ci.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="8c2e386d0b7f2b9bd902c369bcf58183a4d51d38c52ea4a73af84e25aa5c5427" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star kongkong1988/OpenWrt-CI" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:231093963,&quot;client_id&quot;:&quot;547865618.1565845621&quot;,&quot;originating_request_id&quot;:&quot;8F2A:7BF2:8C1B3D:CADC41:5E0B510D&quot;,&quot;originating_url&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI/blob/master/merge-upstream.yml&quot;,&quot;referrer&quot;:&quot;https://github.com/kongkong1988/OpenWrt-CI&quot;,&quot;user_id&quot;:54630320}}" data-hydro-click-hmac="76e9d804c286c3f0111ec54fb6fcecdb6a0298c692e17c3b52d8125f7fdf30f0" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/kongkong1988/OpenWrt-CI/stargazers"
@@ -937,9 +937,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/kongkong1988/OpenWrt-CI/blob/1b92bf273772552285b8e948f509ab1dbc7cdd7d/openwrt-ci.yml">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/kongkong1988/OpenWrt-CI/blob/1b92bf273772552285b8e948f509ab1dbc7cdd7d/merge-upstream.yml">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:90d133f4229b99d81359fac70d28cf53 -->
+    <!-- blob contrib key: blob_contributors:v21:3a4737efc88653876b6830eb7f1275d2 -->
       
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-column flex-md-row">
@@ -953,7 +953,7 @@
     <span class="css-truncate-target" data-menu-button>master</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/kongkong1988/OpenWrt-CI/refs/master/openwrt-ci.yml?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/kongkong1988/OpenWrt-CI/refs/master/merge-upstream.yml?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -967,13 +967,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="openwrt-ci.yml" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="merge-upstream.yml" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/kongkong1988/OpenWrt-CI"><span>OpenWrt-CI</span></a></span></span><span class="separator">/</span><strong class="final-path">openwrt-ci.yml</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/kongkong1988/OpenWrt-CI"><span>OpenWrt-CI</span></a></span></span><span class="separator">/</span><strong class="final-path">merge-upstream.yml</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -983,7 +983,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="openwrt-ci.yml" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="merge-upstream.yml" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -993,45 +993,16 @@
 
 
 
-    
-  <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
-      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
-        <span class="pr-md-4 f6">
-          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/KFERMercer/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/KFERMercer"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37098748?s=40&amp;v=4" width="20" height="20" alt="@KFERMercer" /></a>
-          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/KFERMercer/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/KFERMercer">KFERMercer</a>
-            <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="adjusting" class="link-gray" href="/kongkong1988/OpenWrt-CI/commit/1b92bf273772552285b8e948f509ab1dbc7cdd7d">adjusting</a>
-            </span>
-        </span>
-        <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/kongkong1988/OpenWrt-CI/commit/1b92bf273772552285b8e948f509ab1dbc7cdd7d" data-pjax>1b92bf2</a>
-          <relative-time datetime="2019-12-15T16:03:24Z" class="no-wrap">Dec 16, 2019</relative-time>
-        </span>
+    <include-fragment src="/kongkong1988/OpenWrt-CI/contributors/master/merge-upstream.yml" class="Box Box--condensed commit-loader">
+      <div class="Box-body bg-blue-light f6">
+        Fetching contributors&hellip;
       </div>
 
-    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
-      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
-        <summary class="btn-link">
-          <span><strong>1</strong> contributor</span>
-        </summary>
-        <details-dialog
-          class="Box Box--overlay d-flex flex-column anim-fade-in fast"
-          aria-label="Users who have contributed to this file"
-          src="/kongkong1988/OpenWrt-CI/contributors-list/master/openwrt-ci.yml" preload>
-          <div class="Box-header">
-            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-            </button>
-            <h3 class="Box-title">
-              Users who have contributed to this file
-            </h3>
-          </div>
-          <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
-        </details-dialog>
-      </details>
-    </div>
-  </div>
-
+      <div class="Box-body d-flex flex-items-center" >
+          <img alt="" class="loader-loading mr-2" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+        <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
+      </div>
+</include-fragment>
 
 
 
@@ -1041,17 +1012,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      221 lines (188 sloc)
+      43 lines (34 sloc)
       <span class="file-info-divider"></span>
-    7.46 KB
+    845 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/kongkong1988/OpenWrt-CI/raw/master/openwrt-ci.yml">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/kongkong1988/OpenWrt-CI/blame/master/openwrt-ci.yml">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/kongkong1988/OpenWrt-CI/commits/master/openwrt-ci.yml">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/kongkong1988/OpenWrt-CI/raw/master/merge-upstream.yml">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/kongkong1988/OpenWrt-CI/blame/master/merge-upstream.yml">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/kongkong1988/OpenWrt-CI/commits/master/merge-upstream.yml">History</a>
     </div>
 
 
@@ -1063,13 +1034,13 @@
                 <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </a>
 
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/kongkong1988/OpenWrt-CI/edit/master/openwrt-ci.yml" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JM4DkX8m8asbD2OpQWfjn1jpGRmQ2BfetOuzH13sieUZTmrz+EuctxIq2F6I7U470M55tIJmbVDYtuGeKbMlLg==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/kongkong1988/OpenWrt-CI/edit/master/merge-upstream.yml" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XMJA1G522r3TmcSqa9mGNEKlJXzEEAnxDZYelcBARlja4P17qLNsH6I2/Va6dXTvskGQxwlCkGqoATWhJNbtsA==" />
               <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
                 aria-label="Edit this file" data-hotkey="e" data-disable-with>
                 <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
               </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/kongkong1988/OpenWrt-CI/delete/master/openwrt-ci.yml" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KIo1FN/LdNe6snvMZLK6Oeu1LG4AXLId4Imc2pkA3L916bUuXEGmmi55DqXV6EjRDt2yObLYkF9/ffS4cyNIoA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/kongkong1988/OpenWrt-CI/delete/master/merge-upstream.yml" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RdWGmgymxon8O9HZOWoxSL4y8Sjnfye6fOKYpnM0OTqy64ow4IFZQq3pNXex+FrPunvSA+f3xxMKfNFg9TCkWQ==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1100,69 +1071,70 @@
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Copyright (C) 2019 P3TERX &lt;https://p3terx.com&gt;</span></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Copyright (C) 2019 KFERMercer &lt;KFER.Mercer@gmail.com&gt;</span></td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Copyright (C) 2019 KFERMercer &lt;KFER.Mercer@gmail.com&gt;</span></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> </span></td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> </span></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> &lt;https://github.com/KFERMercer/OpenWrt-CI&gt;</span></td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> &lt;https://github.com/KFERMercer/OpenWrt-CI&gt;</span></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span></span></td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span></span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">name</span>: <span class="pl-s">Merge-upstream</span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">name</span>: <span class="pl-s">OpenWrt-CI</span></td>
-      </tr>
-      <tr>
-        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">on</span>:</td>
+      </tr>
+      <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">on</span>:</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">push</span>:</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">push</span>:</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">branches</span>: </td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">branches</span>: </td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">      - <span class="pl-s">master</span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">      - <span class="pl-s">master</span></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">schedule</span>:</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">#</span> schedule:</span></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">cron</span>: <span class="pl-s">30 19 * * *</span></td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">#</span>   - cron: 0 20 * * *</span></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">#</span> release:</span></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">jobs</span>:</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">  <span class="pl-c"><span class="pl-c">#</span>   types: [published]</span></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">merge</span>:</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
@@ -1171,7 +1143,7 @@
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">jobs</span>:</td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">runs-on</span>: <span class="pl-s">ubuntu-latest</span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
@@ -1180,7 +1152,7 @@
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">build</span>:</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">steps</span>:</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
@@ -1189,795 +1161,81 @@
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">runs-on</span>: <span class="pl-s">ubuntu-latest</span></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Checkout</span></td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">uses</span>: <span class="pl-s">actions/checkout@master</span></td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">steps</span>:</td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">with</span>:</td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">ref</span>: <span class="pl-s">master</span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">      - <span class="pl-ent">name</span>: <span class="pl-s">Checkout</span></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">fetch-depth</span>: <span class="pl-c1">0</span></td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">uses</span>: <span class="pl-s">actions/checkout@master</span></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">lfs</span>: <span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">with</span>:</td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">          <span class="pl-ent">ref</span>: <span class="pl-s">master</span></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Set git identity</span></td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span> : <span class="pl-s">|</span></td>
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">      - <span class="pl-ent">name</span>: <span class="pl-s">Space cleanup</span></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        git config --global user.email &quot;KFER.Mercer@gmail.com&quot;</span></td>
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">env</span>:</td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        git config --global user.name &quot;KFERMercer&quot;</span></td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">          <span class="pl-ent">DEBIAN_FRONTEND</span>: <span class="pl-s">noninteractive</span></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>: <span class="pl-s">Load upstream commits</span></td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          docker rmi `docker images -q`</span></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">git pull https://github.com/coolsnowwolf/lede.git --no-edit --strategy-option ours</span></td>
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d</span></td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          sudo -E apt-get -y purge azure-cli ghc* zulu* hhvm llvm* firefox google* dotnet* powershell openjdk* mysql* php*</span></td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          sudo -E apt-get update</span></td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          sudo -E apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler</span></td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          sudo -E apt-get -y autoremove --purge</span></td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          sudo -E apt-get clean</span></td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir</span></td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # ln -s /mnt/openwrt/bin ./bin</span></td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # mkdir -p ./build_dir/host &amp;&amp; ln -s /mnt/openwrt/build_dir/host ./build_dir/host</span></td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # mkdir -p ./build_dir/host &amp;&amp; ln -s /mnt/openwrt/build_dir/hostpkg ./build_dir/hostpkg</span></td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # ln -s /mnt/openwrt/dl ./dl</span></td>
-      </tr>
-      <tr>
-        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # ln -s /mnt/openwrt/feeds ./feeds</span></td>
-      </tr>
-      <tr>
-        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # ln -s /mnt/openwrt/staging_dir ./staging_dir</span></td>
-      </tr>
-      <tr>
-        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          df -h</span></td>
-      </tr>
-      <tr>
-        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>      - <span class="pl-ent">name</span>: <span class="pl-s">Update feeds</span></td>
-      </tr>
-      <tr>
-        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
-      </tr>
-      <tr>
-        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          ./scripts/feeds update -a</span></td>
-      </tr>
-      <tr>
-        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          ./scripts/feeds install -a</span></td>
-      </tr>
-      <tr>
-        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>      - <span class="pl-ent">name</span>: <span class="pl-s">Generate configuration file</span></td>
-      </tr>
-      <tr>
-        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
-      </tr>
-      <tr>
-        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          rm -f ./.config*</span></td>
-      </tr>
-      <tr>
-        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          touch ./.config</span></td>
-      </tr>
-      <tr>
-        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #</span></td>
-      </tr>
-      <tr>
-        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # ========================固件定制部分========================</span></td>
-      </tr>
-      <tr>
-        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # </span></td>
-      </tr>
-      <tr>
-        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # </span></td>
-      </tr>
-      <tr>
-        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 如果不对本区块做出任何编辑, 则生成默认配置固件. </span></td>
-      </tr>
-      <tr>
-        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # </span></td>
-      </tr>
-      <tr>
-        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 以下为定制化固件选项和说明:</span></td>
-      </tr>
-      <tr>
-        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #</span></td>
-      </tr>
-      <tr>
-        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #</span></td>
-      </tr>
-      <tr>
-        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 有些插件/选项是默认开启的, 如果想要关闭, 请参照以下示例进行编写:</span></td>
-      </tr>
-      <tr>
-        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # </span></td>
-      </tr>
-      <tr>
-        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #          =========================================</span></td>
-      </tr>
-      <tr>
-        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="LC81" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #         |  # 取消编译VMware镜像:                   |</span></td>
-      </tr>
-      <tr>
-        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="LC82" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #         |  cat &gt;&gt; .config &lt;&lt;EOF                   |</span></td>
-      </tr>
-      <tr>
-        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
-        <td id="LC83" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #         |  # CONFIG_VMDK_IMAGES is not set        |</span></td>
-      </tr>
-      <tr>
-        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="LC84" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #         |  EOF                                    |</span></td>
-      </tr>
-      <tr>
-        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
-        <td id="LC85" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #          =========================================</span></td>
-      </tr>
-      <tr>
-        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
-        <td id="LC86" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #</span></td>
-      </tr>
-      <tr>
-        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="LC87" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
-        <td id="LC88" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # </span></td>
-      </tr>
-      <tr>
-        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
-        <td id="LC89" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 以下是一些提前准备好的一些插件选项.</span></td>
-      </tr>
-      <tr>
-        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
-        <td id="LC90" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 直接取消注释相应代码块即可应用. 不要取消注释代码块上的汉字说明.</span></td>
-      </tr>
-      <tr>
-        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
-        <td id="LC91" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 如果不需要代码块里的某一项配置, 只需要删除相应行.</span></td>
-      </tr>
-      <tr>
-        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
-        <td id="LC92" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          #</span></td>
-      </tr>
-      <tr>
-        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
-        <td id="LC93" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 如果需要其他插件, 请按照示例自行添加.</span></td>
-      </tr>
-      <tr>
-        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
-        <td id="LC94" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 注意, 只需添加依赖链顶端的包. 如果你需要插件 A, 同时 A 依赖 B, 即只需要添加 A.</span></td>
-      </tr>
-      <tr>
-        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
-        <td id="LC95" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # </span></td>
-      </tr>
-      <tr>
-        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
-        <td id="LC96" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 无论你想要对固件进行怎样的定制, 都需要且只需要修改 EOF 回环内的内容.</span></td>
-      </tr>
-      <tr>
-        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
-        <td id="LC97" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # </span></td>
-      </tr>
-      <tr>
-        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
-        <td id="LC98" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
-        <td id="LC99" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 编译x64固件:</span></td>
-      </tr>
-      <tr>
-        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
-        <td id="LC100" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
-        <td id="LC101" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_TARGET_x86=y</span></td>
-      </tr>
-      <tr>
-        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
-        <td id="LC102" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_TARGET_x86_64=y</span></td>
-      </tr>
-      <tr>
-        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
-        <td id="LC103" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_TARGET_x86_64_Generic=y</span></td>
-      </tr>
-      <tr>
-        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
-        <td id="LC104" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
-        <td id="LC105" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
-        <td id="LC106" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 固件压缩:</span></td>
-      </tr>
-      <tr>
-        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
-        <td id="LC107" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
-        <td id="LC108" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_TARGET_IMAGES_GZIP=y</span></td>
-      </tr>
-      <tr>
-        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
-        <td id="LC109" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
-        <td id="LC110" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
-        <td id="LC111" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 编译UEFI固件:</span></td>
-      </tr>
-      <tr>
-        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
-        <td id="LC112" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
-        <td id="LC113" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_EFI_IMAGES=y</span></td>
-      </tr>
-      <tr>
-        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
-        <td id="LC114" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
-        <td id="LC115" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
-        <td id="LC116" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # IPv6支持:</span></td>
-      </tr>
-      <tr>
-        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
-        <td id="LC117" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
-        <td id="LC118" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y</span></td>
-      </tr>
-      <tr>
-        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
-        <td id="LC119" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_ipv6helper=y</span></td>
-      </tr>
-      <tr>
-        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
-        <td id="LC120" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
-        <td id="LC121" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
-        <td id="LC122" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 多文件系统支持:</span></td>
-      </tr>
-      <tr>
-        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
-        <td id="LC123" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
-        <td id="LC124" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-fs-nfs=y</span></td>
-      </tr>
-      <tr>
-        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
-        <td id="LC125" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-fs-nfs-common=y</span></td>
-      </tr>
-      <tr>
-        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
-        <td id="LC126" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-fs-nfs-v3=y</span></td>
-      </tr>
-      <tr>
-        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
-        <td id="LC127" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-fs-nfs-v4=y</span></td>
-      </tr>
-      <tr>
-        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
-        <td id="LC128" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-fs-ntfs=y</span></td>
-      </tr>
-      <tr>
-        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
-        <td id="LC129" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-fs-squashfs=y</span></td>
-      </tr>
-      <tr>
-        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
-        <td id="LC130" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
-        <td id="LC131" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
-        <td id="LC132" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # USB3.0支持:</span></td>
-      </tr>
-      <tr>
-        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
-        <td id="LC133" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
-        <td id="LC134" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-usb-ohci=y</span></td>
-      </tr>
-      <tr>
-        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
-        <td id="LC135" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-usb-ohci-pci=y</span></td>
-      </tr>
-      <tr>
-        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
-        <td id="LC136" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-usb2=y</span></td>
-      </tr>
-      <tr>
-        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
-        <td id="LC137" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-usb2-pci=y</span></td>
-      </tr>
-      <tr>
-        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
-        <td id="LC138" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_kmod-usb3=y</span></td>
-      </tr>
-      <tr>
-        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
-        <td id="LC139" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
-        <td id="LC140" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
-        <td id="LC141" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 常用LuCI插件选择:</span></td>
-      </tr>
-      <tr>
-        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
-        <td id="LC142" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
-        <td id="LC143" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-adbyby-plus=y</span></td>
-      </tr>
-      <tr>
-        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
-        <td id="LC144" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-aria2=y</span></td>
-      </tr>
-      <tr>
-        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
-        <td id="LC145" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-baidupcs-web=y</span></td>
-      </tr>
-      <tr>
-        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
-        <td id="LC146" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-docker=y</span></td>
-      </tr>
-      <tr>
-        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
-        <td id="LC147" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-frpc=y</span></td>
-      </tr>
-      <tr>
-        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
-        <td id="LC148" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-kodexplorer=y</span></td>
-      </tr>
-      <tr>
-        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
-        <td id="LC149" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-minidlna=y</span></td>
-      </tr>
-      <tr>
-        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
-        <td id="LC150" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-openvpn=y</span></td>
-      </tr>
-      <tr>
-        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
-        <td id="LC151" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-openvpn-server=y</span></td>
-      </tr>
-      <tr>
-        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
-        <td id="LC152" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-qbittorrent=y</span></td>
-      </tr>
-      <tr>
-        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
-        <td id="LC153" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y</span></td>
-      </tr>
-      <tr>
-        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
-        <td id="LC154" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y</span></td>
-      </tr>
-      <tr>
-        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
-        <td id="LC155" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y</span></td>
-      </tr>
-      <tr>
-        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
-        <td id="LC156" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks=y</span></td>
-      </tr>
-      <tr>
-        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
-        <td id="LC157" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray=y</span></td>
-      </tr>
-      <tr>
-        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
-        <td id="LC158" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-ttyd=y</span></td>
-      </tr>
-      <tr>
-        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
-        <td id="LC159" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-v2ray-server=y</span></td>
-      </tr>
-      <tr>
-        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
-        <td id="LC160" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-verysync=y</span></td>
-      </tr>
-      <tr>
-        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
-        <td id="LC161" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-webadmin=y</span></td>
-      </tr>
-      <tr>
-        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
-        <td id="LC162" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-wireguard=y</span></td>
-      </tr>
-      <tr>
-        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
-        <td id="LC163" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-app-wrtbwmon=y</span></td>
-      </tr>
-      <tr>
-        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
-        <td id="LC164" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
-        <td id="LC165" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
-        <td id="LC166" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # LuCI主题:</span></td>
-      </tr>
-      <tr>
-        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
-        <td id="LC167" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
-        <td id="LC168" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-theme-argon=y</span></td>
-      </tr>
-      <tr>
-        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
-        <td id="LC169" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_luci-theme-netgear=y</span></td>
-      </tr>
-      <tr>
-        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
-        <td id="LC170" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
-        <td id="LC171" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
-        <td id="LC172" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 常用软件包:</span></td>
-      </tr>
-      <tr>
-        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
-        <td id="LC173" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
-        <td id="LC174" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_curl=y</span></td>
-      </tr>
-      <tr>
-        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
-        <td id="LC175" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_htop=y</span></td>
-      </tr>
-      <tr>
-        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
-        <td id="LC176" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_nano=y</span></td>
-      </tr>
-      <tr>
-        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
-        <td id="LC177" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_screen=y</span></td>
-      </tr>
-      <tr>
-        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
-        <td id="LC178" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_tree=y</span></td>
-      </tr>
-      <tr>
-        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
-        <td id="LC179" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_vim-fuller=y</span></td>
-      </tr>
-      <tr>
-        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
-        <td id="LC180" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # CONFIG_PACKAGE_wget=y</span></td>
-      </tr>
-      <tr>
-        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
-        <td id="LC181" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
-        <td id="LC182" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L183" class="blob-num js-line-number" data-line-number="183"></td>
-        <td id="LC183" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # 取消编译VMware镜像以及镜像填充 (不要删除被缩进的注释符号):</span></td>
-      </tr>
-      <tr>
-        <td id="L184" class="blob-num js-line-number" data-line-number="184"></td>
-        <td id="LC184" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # cat &gt;&gt; .config &lt;&lt;EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L185" class="blob-num js-line-number" data-line-number="185"></td>
-        <td id="LC185" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # # CONFIG_TARGET_IMAGES_PAD is not set</span></td>
-      </tr>
-      <tr>
-        <td id="L186" class="blob-num js-line-number" data-line-number="186"></td>
-        <td id="LC186" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # # CONFIG_VMDK_IMAGES is not set</span></td>
-      </tr>
-      <tr>
-        <td id="L187" class="blob-num js-line-number" data-line-number="187"></td>
-        <td id="LC187" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # EOF</span></td>
-      </tr>
-      <tr>
-        <td id="L188" class="blob-num js-line-number" data-line-number="188"></td>
-        <td id="LC188" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L189" class="blob-num js-line-number" data-line-number="189"></td>
-        <td id="LC189" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # </span></td>
-      </tr>
-      <tr>
-        <td id="L190" class="blob-num js-line-number" data-line-number="190"></td>
-        <td id="LC190" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # ========================固件定制部分结束========================</span></td>
-      </tr>
-      <tr>
-        <td id="L191" class="blob-num js-line-number" data-line-number="191"></td>
-        <td id="LC191" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          # </span></td>
-      </tr>
-      <tr>
-        <td id="L192" class="blob-num js-line-number" data-line-number="192"></td>
-        <td id="LC192" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L193" class="blob-num js-line-number" data-line-number="193"></td>
-        <td id="LC193" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          sed -i &#39;s/^[ \t]*//g&#39; ./.config</span></td>
-      </tr>
-      <tr>
-        <td id="L194" class="blob-num js-line-number" data-line-number="194"></td>
-        <td id="LC194" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          make defconfig</span></td>
-      </tr>
-      <tr>
-        <td id="L195" class="blob-num js-line-number" data-line-number="195"></td>
-        <td id="LC195" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L196" class="blob-num js-line-number" data-line-number="196"></td>
-        <td id="LC196" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>      - <span class="pl-ent">name</span>: <span class="pl-s">Make download</span></td>
-      </tr>
-      <tr>
-        <td id="L197" class="blob-num js-line-number" data-line-number="197"></td>
-        <td id="LC197" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
-      </tr>
-      <tr>
-        <td id="L198" class="blob-num js-line-number" data-line-number="198"></td>
-        <td id="LC198" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          make download -j8</span></td>
-      </tr>
-      <tr>
-        <td id="L199" class="blob-num js-line-number" data-line-number="199"></td>
-        <td id="LC199" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          find ./dl/ -size -1024c -exec rm -f {} \;</span></td>
-      </tr>
-      <tr>
-        <td id="L200" class="blob-num js-line-number" data-line-number="200"></td>
-        <td id="LC200" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          df -h</span></td>
-      </tr>
-      <tr>
-        <td id="L201" class="blob-num js-line-number" data-line-number="201"></td>
-        <td id="LC201" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L202" class="blob-num js-line-number" data-line-number="202"></td>
-        <td id="LC202" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>      - <span class="pl-ent">name</span>: <span class="pl-s">Compile firmware</span></td>
-      </tr>
-      <tr>
-        <td id="L203" class="blob-num js-line-number" data-line-number="203"></td>
-        <td id="LC203" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
-      </tr>
-      <tr>
-        <td id="L204" class="blob-num js-line-number" data-line-number="204"></td>
-        <td id="LC204" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          make -j$(nproc) || make -j1 V=s</span></td>
-      </tr>
-      <tr>
-        <td id="L205" class="blob-num js-line-number" data-line-number="205"></td>
-        <td id="LC205" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          echo &quot;=======================&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L206" class="blob-num js-line-number" data-line-number="206"></td>
-        <td id="LC206" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          echo &quot;Space usage:&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L207" class="blob-num js-line-number" data-line-number="207"></td>
-        <td id="LC207" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          echo &quot;=======================&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L208" class="blob-num js-line-number" data-line-number="208"></td>
-        <td id="LC208" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          df -h</span></td>
-      </tr>
-      <tr>
-        <td id="L209" class="blob-num js-line-number" data-line-number="209"></td>
-        <td id="LC209" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          echo &quot;=======================&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="L210" class="blob-num js-line-number" data-line-number="210"></td>
-        <td id="LC210" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          du -h --max-depth=1 ./ --exclude=build_dir --exclude=bin</span></td>
-      </tr>
-      <tr>
-        <td id="L211" class="blob-num js-line-number" data-line-number="211"></td>
-        <td id="LC211" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          du -h --max-depth=1 ./build_dir</span></td>
-      </tr>
-      <tr>
-        <td id="L212" class="blob-num js-line-number" data-line-number="212"></td>
-        <td id="LC212" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          du -h --max-depth=1 ./bin</span></td>
-      </tr>
-      <tr>
-        <td id="L213" class="blob-num js-line-number" data-line-number="213"></td>
-        <td id="LC213" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
-      </tr>
-      <tr>
-        <td id="L214" class="blob-num js-line-number" data-line-number="214"></td>
-        <td id="LC214" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>      - <span class="pl-ent">name</span>: <span class="pl-s">Prepare artifact</span></td>
-      </tr>
-      <tr>
-        <td id="L215" class="blob-num js-line-number" data-line-number="215"></td>
-        <td id="LC215" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">run</span>: <span class="pl-s">find ./bin/targets/ -type d -name &quot;packages&quot; | xargs rm -rf {}</span></td>
-      </tr>
-      <tr>
-        <td id="L216" class="blob-num js-line-number" data-line-number="216"></td>
-        <td id="LC216" class="blob-code blob-code-inner js-file-line">
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
-        <td id="L217" class="blob-num js-line-number" data-line-number="217"></td>
-        <td id="LC217" class="blob-code blob-code-inner js-file-line">      - <span class="pl-ent">name</span>: <span class="pl-s">Upload artifact</span></td>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Push Commits</span></td>
       </tr>
       <tr>
-        <td id="L218" class="blob-num js-line-number" data-line-number="218"></td>
-        <td id="LC218" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">uses</span>: <span class="pl-s">actions/upload-artifact@master</span></td>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">env</span>:</td>
       </tr>
       <tr>
-        <td id="L219" class="blob-num js-line-number" data-line-number="219"></td>
-        <td id="LC219" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">with</span>:</td>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">DOWNSTREAM_BRANCH</span>: <span class="pl-s">master</span></td>
       </tr>
       <tr>
-        <td id="L220" class="blob-num js-line-number" data-line-number="220"></td>
-        <td id="LC220" class="blob-code blob-code-inner js-file-line">          <span class="pl-ent">name</span>: <span class="pl-s">OpenWrt firmware</span></td>
-      </tr>
-      <tr>
-        <td id="L221" class="blob-num js-line-number" data-line-number="221"></td>
-        <td id="LC221" class="blob-code blob-code-inner js-file-line">          <span class="pl-ent">path</span>: <span class="pl-s">./bin/targets/</span></td>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">git push origin $DOWNSTREAM_BRANCH</span></td>
       </tr>
 </table>
 
@@ -1997,7 +1255,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/kongkong1988/OpenWrt-CI/blame/1b92bf273772552285b8e948f509ab1dbc7cdd7d/openwrt-ci.yml">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/kongkong1988/OpenWrt-CI/blame/1b92bf273772552285b8e948f509ab1dbc7cdd7d/merge-upstream.yml">View git blame</a></li>
       </ul>
     </details-menu>
   </details>
